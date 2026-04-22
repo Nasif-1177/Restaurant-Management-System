@@ -1,0 +1,70 @@
+body {
+  font-family: Arial;
+  background: #f4f4f4;
+  text-align: center;
+}
+
+h1 {
+  background: #2c3e50;
+  color: white;
+  padding: 15px;
+}
+
+.container {
+  background: white;
+  width: 400px;
+  margin: auto;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px gray;
+}
+
+input, select {
+  width: 90%;
+  padding: 8px;
+  margin: 8px;
+}
+
+button {
+  padding: 10px 20px;
+  background: #27ae60;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #219150;
+}
+
+table {
+  width: 90%;
+  margin: auto;
+  margin-top: 20px;
+  border-collapse: collapse;
+  background: white;
+}
+
+th, td {
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+th {
+  background: #34495e;
+  color: white;
+}
+
+.edit {
+  background: orange;
+  color: white;
+  padding: 5px 10px;
+  border: none;
+}
+
+.delete {
+  background: red;
+  color: white;
+  padding: 5px 10px;
+  border: none;
+}
